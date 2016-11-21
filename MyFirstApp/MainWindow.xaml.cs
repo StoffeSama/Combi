@@ -28,6 +28,7 @@ namespace MyFirstApp
         private readonly IFaceServiceClient faceServiceClient = new FaceServiceClient("bcba6dd40af64f31b200339e2322bf1c");
         private string personGroupId = "haxxorgroup";
         private Stream s;
+        private int test;
 
         public MainWindow()
         {
